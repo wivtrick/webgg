@@ -1,0 +1,79 @@
+.b-w {
+    background: linear-gradient(to right, black, white);
+}
+
+.w-b {
+    background: linear-gradient(to right, white, black);
+}
+
+.w-r {
+    background: linear-gradient(to right, white, red);
+}
+
+.r-w {
+    background: linear-gradient(to right, red, white);
+}
+
+.w-g {
+    background: linear-gradient(to right, white, green);
+}
+
+.g-w {
+    background: linear-gradient(to right, green, white);
+}
+
+.w-blu {
+    background: linear-gradient(to right, white, blue);
+}
+
+.blu-w {
+    background: linear-gradient(to right, blue, white);
+}
+
+.b-r {
+    background: linear-gradient(to right, black, red);
+}
+
+.r-b {
+    background: linear-gradient(to right, red, black);
+}
+
+.b-g {
+    background: linear-gradient(to right, black, green);
+}
+
+.g-b {
+    background: linear-gradient(to right, green, black);
+}
+
+.b-blu {
+    background: linear-gradient(to right, black, blue);
+}
+
+.blu-b {
+    background: linear-gradient(to right, blue, black);
+}
+
+.r-g {
+    background: linear-gradient(to right, red, green);
+}
+
+.g-r {
+    background: linear-gradient(to right, green, red);
+}
+
+.r-blu {
+    background: linear-gradient(to right, red, blue);
+}
+
+.blu-r {
+    background: linear-gradient(to right, blue, red);
+}
+
+.g-blu {
+    background: linear-gradient(to right, green, blue);
+}
+
+.blu-g {
+    background: linear-gradient(to right, blue, green);
+}
