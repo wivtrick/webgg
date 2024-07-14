@@ -1,1 +1,1 @@
-# webgg
+# The WebGG.net website
