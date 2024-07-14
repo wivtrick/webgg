@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+}
+
+@keyframes disco {
+    0% { background-color: red; }
+    20% { background-color: green; }
+    40% { background-color: blue; }
+    60% { background-color: yellow; }
+    80% { background-color: magenta; }
+    100% { background-color: cyan; }
+}
+
+.disco {
+    width: 100px;
+    height: 100px;
+    animation: disco 2s infinite;
+}
+
+@keyframes cop {
+    0% { background-color: red; }
+    50% { background-color: blue; }
+    100% { background-color: red; }
+}
+
+.cop {
+    width: 100px;
+    height: 100px;
+    animation: cop 1s infinite;
+}
+
+@keyframes gradientChange {
+    0% { background: linear-gradient(to right, red, yellow); }
+    25% { background: linear-gradient(to right, yellow, green); }
+    50% { background: linear-gradient(to right, green, blue); }
+    75% { background: linear-gradient(to right, blue, magenta); }
+    100% { background: linear-gradient(to right, magenta, red); }
+}
+
+.gradient {
+    width: 100px;
+    height: 100px;
+    animation: gradientChange 2s infinite;
+}
+
+
+/*CENTER*/
+
+.center {
+    display: flex;
+    flex-direction: column;
+    margin-top: 45vh;
+    align-items: center;
+    text-align: center;
+}
+
+
+@keyframes rainbow {
+    0% { background-color: red; }
+    14% { background-color: orange; }
+    28% { background-color: yellow; }
+    42% { background-color: green; }
+    57% { background-color: blue; }
+    71% { background-color: indigo; }
+    85% { background-color: violet; }
+    100% { background-color: red; }
+}
+
+.rainbow {
+    width: 100px;
+    height: 100px;
+    animation: rainbow 3s infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.spin {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    animation: spin 2s infinite linear;
+}
+
+
+@keyframes blink {
+    0%, 100% { background-color: black; }
+    50% { background-color: white; }
+}
+
+.blink {
+    animation: blink 2s infinite;
+}
+
+
+@keyframes wave {
+    0%, 100% { transform: translateX(0); }
+    50% { transform: translateX(20px); }
+}
+
+.wave {
+    width: 100px;
+    height: 100px;
+    background-color: #9b59b6;
+    animation: wave 1.5s infinite ease-in-out;
+}
